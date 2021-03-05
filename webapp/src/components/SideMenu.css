@@ -1,0 +1,49 @@
+
+
+#sideMenu {
+    float: left;
+    height: 100vh;
+    background-color: rgb(40, 40, 40);
+    width: 20vw;
+    margin-right: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    font-size: 1.8vh;
+}
+
+#sideMenu h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    background-color: rgb(30, 30, 30);
+}
+
+#sideMenu h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    width: 20vw;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}#sideMenu h2.active {
+    background-color: rgb(10, 10, 10);
+}
+#sideMenu h2:hover {
+    background-color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+#sideMenuBottom {
+    border: 0;
+    border-top: 1px solid rgb(230, 230, 230);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+h3 {
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+}

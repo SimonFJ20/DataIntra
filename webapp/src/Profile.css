@@ -1,0 +1,21 @@
+
+
+
+
+button.profile {
+    margin: 5px;
+    border: 0px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: rgb(60, 60, 60);
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    text-align: center;
+}button.profile:hover {
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}button.profile:active {
+    background-color: rgb(50, 50, 50);
+}
