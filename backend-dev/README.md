@@ -3,6 +3,13 @@
 
 
 ## User Auth
-### POST `/login`
+### Login `/login`: POST
+#### Request
+```typescript
+{
+    username: string,
+    password: string
+}
+```
 
 
