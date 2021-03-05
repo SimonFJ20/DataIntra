@@ -6,14 +6,14 @@
 
 ### Login `/auth/login` : POST
 #### Request
-```typescript
+```yaml
 {
     username: string,               // Username of existing user
     password: string                // Password of existing user
 }
 ```
 #### Response
-```typescript
+```yaml
 {
     err: boolean,                   // If an error occured
     msg?: string | object,          // Error message, if any
@@ -24,7 +24,7 @@
 ## (not finished) Register `/auth/register` : POST
 
 ### Request
-```typescript
+```yaml
 {
     username: string,               // Username of new user
     password: string                // Password of new user
@@ -32,7 +32,7 @@
 ```
 
 #### Response
-```typescript
+```yaml
 {
     err: boolean,                   // If an error occured
     msg?: string | object,          // Error message, if any
