@@ -15,7 +15,7 @@ function App() {
 
     return (
         <div className="App">
-            <SideMenu menuState={menuState} page={page} setPage={setPage} ></SideMenu>
+            <SideMenu menuState={menuState} setMenuState={setMenuState} page={page} setPage={setPage} ></SideMenu>
             <Topbar menuState={menuState} setMenuState={setMenuState} authState={authState} setAuthState={setAuthState} ></Topbar>
             <Content menuState={menuState} page={page} setPage={setPage} />
         </div>

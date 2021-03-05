@@ -1,4 +1,5 @@
 import './SideMenu.css'
+import { MenuLogo } from './Topbar';
 
 
 function Link(props) {
@@ -14,12 +15,15 @@ function Link(props) {
     }
 }
 
+
+
 export default function SideMenu(props) {
 
     if(props.menuState === true) {
         return (
             <div id="sideMenu">
-                <h1>DataIntra Navigator</h1>
+                <MenuLogo menuState={props.menuState} setMenuState={props.setMenuState} ></MenuLogo>
+                <h1 className="topbar" onClick={() => props.setMenuState(false)} ><span>Data</span>Intra</h1>
                 <Link link="forside" text="Forside" page={props.page} setPage={props.setPage} />
                 <Link link="minside" text="Min Side" page={props.page} setPage={props.setPage} />
                 <Link link="datahouse" text="DataHouse" page={props.page} setPage={props.setPage} />

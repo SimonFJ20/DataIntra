@@ -7,7 +7,7 @@ import MenuIcon from './TopbarMenuIcon.svg';
 
 
 
-function MenuLogo(props) {
+export function MenuLogo(props) {
 
     const setMenuFalse = (e) => {props.setMenuState(false)};
     const setMenuTrue = (e) => {props.setMenuState(true)};

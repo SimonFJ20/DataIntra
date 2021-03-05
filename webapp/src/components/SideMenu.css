@@ -2,6 +2,10 @@
 
 #sideMenu {
     float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
     height: 100vh;
     background-color: rgb(40, 40, 40);
     width: 20vw;
@@ -12,13 +16,22 @@
     font-size: 1.8vh;
 }
 
+#sideMenu #menuIconOpen {
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: rgb(80, 80, 80);
+}
+
 #sideMenu h1 {
     margin: 0;
     padding: 0;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 30px;
     border-bottom: 1px solid rgb(230, 230, 230);
     background-color: rgb(30, 30, 30);
+}#sideMenu h1:hover {
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
 }
 
 #sideMenu h2 {
